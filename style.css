@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    background-color: burlywood;
+    height: 300px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        background-color: lightblue;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        height: 100vh;
+    }
+}
